@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right,rgb(33, 6, 56),rgb(7, 35, 55));
+    color: white
+}
+header{
+    background: rgb(18, 14, 14);
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: rgb(169, 169, 214);
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    color:aliceblue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover{
+color: rgb(145, 3, 173);
+}
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+    background: rebeccapurple;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+
+.planets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px
+}
+.planet{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.planet:hover{
+    transform: scale(1.05);
+}
+.planet img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.about{
+    background: rgb(92, 12, 90);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+footer{
+    background: rebeccapurple;
+    text-align: center;
+    padding: 15px;
+    color: rgb(184, 151, 214);
+}
